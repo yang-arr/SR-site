@@ -35,7 +35,7 @@ export default function PrivacyPage() {
                             <h2 className="text-2xl font-bold mb-4">二、信息使用</h2>
                             <p className="text-muted-foreground mb-3">我们收集的信息将用于以下目的：</p>
                             <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-                                <li><strong>提供服务</strong> - 完成组讯发布、演员匹配、订单管理等核心功能</li>
+                                <li><strong>提供服务</strong> - 完成组讯发布、演员匹配、信息管理等核心功能</li>
                                 <li><strong>推荐匹配</strong> - 基于您的资料和偏好，智能推荐合适的角色或演员</li>
                                 <li><strong>安全保障</strong> - 进行身份验证、风控审核，维护平台安全</li>
                             </ul>

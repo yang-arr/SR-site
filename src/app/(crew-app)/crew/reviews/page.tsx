@@ -95,7 +95,7 @@ export default function ReviewsPage() {
       {activeTab === "pending" && (
         <div className="space-y-4">
           {pendingReviews.length === 0 && (
-            <div className="text-center py-16 text-gray-400">暂无待评价订单</div>
+            <div className="text-center py-16 text-gray-400">暂无待评价信息</div>
           )}
           {pendingReviews.map((pr, i) => {
             const key = `${pr.orderId}-${pr.actorName}`

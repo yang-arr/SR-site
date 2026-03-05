@@ -241,12 +241,12 @@ export const mockReviews: Review[] = [
 ]
 
 export const mockMessages: Message[] = [
-  { id: "m1", type: "order_push", title: "新订单推荐", content: "《逆风翻盘》正在招募女主角，与你的条件匹配度 92%！", isRead: false, createdAt: "2026-03-04 10:00", relatedId: "o1" },
+  { id: "m1", type: "order_push", title: "新信息推荐", content: "《逆风翻盘》正在招募女主角，与你的条件匹配度 92%！", isRead: false, createdAt: "2026-03-04 10:00", relatedId: "o1" },
   { id: "m2", type: "review_result", title: "审核通过", content: "恭喜！你在《品牌广告 TVC 拍摄》的申请已通过，请准时到达集合地点。", isRead: false, createdAt: "2026-03-04 09:30", relatedId: "o2" },
   { id: "m3", type: "departure_reminder", title: "出发提醒", content: "《品牌广告 TVC 拍摄》将于今天 13:00 集合，请提前出发。", isRead: true, createdAt: "2026-03-05 11:00", relatedId: "o2" },
   { id: "m4", type: "review_reminder", title: "评价提醒", content: "你参与的《综艺节目群演》已完成，快来评价剧组吧！", isRead: true, createdAt: "2026-03-01 09:00", relatedId: "o5" },
   { id: "m5", type: "system", title: "系统通知", content: "你的信用分已更新至 142 分，继续保持！", isRead: true, createdAt: "2026-02-28 15:00" },
-  { id: "m6", type: "order_push", title: "新订单推荐", content: "《古装剧锦绣未央2》正在海选丫鬟角色，快来看看！", isRead: false, createdAt: "2026-03-05 08:00", relatedId: "o3" },
+  { id: "m6", type: "order_push", title: "新信息推荐", content: "《古装剧锦绣未央2》正在海选丫鬟角色，快来看看！", isRead: false, createdAt: "2026-03-05 08:00", relatedId: "o3" },
 ]
 
 export const mockNews: NewsItem[] = [
@@ -261,7 +261,7 @@ export const mockNews: NewsItem[] = [
 ### 剧组端
 - **智能发单**：3分钟完成组讯发布，AI自动解析角色需求
 - **简历管理**：卡片式浏览演员资料，一滑即选
-- **订单追踪**：实时掌握招募进度和演员状态
+- **信息追踪**：实时掌握招募进度和演员状态
 
 ### 演员端
 - **任务大厅**：海量优质通告，智能推荐匹配

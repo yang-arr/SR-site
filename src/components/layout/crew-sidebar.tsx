@@ -5,7 +5,6 @@ import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
 import { Logo } from "./logo"
 import {
-  LayoutDashboard,
   FilePlus,
   ClipboardList,
   Search,
@@ -16,9 +15,8 @@ import {
 } from "lucide-react"
 
 const sidebarItems = [
-  { name: "总览", href: "/crew", icon: LayoutDashboard },
-  { name: "发布订单", href: "/crew/post", icon: FilePlus },
-  { name: "订单管理", href: "/crew/orders", icon: ClipboardList },
+  { name: "发布信息", href: "/crew/post", icon: FilePlus },
+  { name: "信息管理", href: "/crew/orders", icon: ClipboardList },
   { name: "找演员", href: "/crew/actors", icon: Search },
   { name: "评价管理", href: "/crew/reviews", icon: Star },
   { name: "我的资料", href: "/crew/profile", icon: UserCircle },

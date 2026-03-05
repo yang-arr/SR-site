@@ -32,7 +32,7 @@ export default function JobDetailPage() {
     return (
       <div>
         <ActorHeader title="工作详情" />
-        <div className="max-w-3xl mx-auto px-4 py-20 text-center text-sm text-gray-400">订单不存在</div>
+        <div className="max-w-3xl mx-auto px-4 py-20 text-center text-sm text-gray-400">信息不存在</div>
       </div>
     )
   }

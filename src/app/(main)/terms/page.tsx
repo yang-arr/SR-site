@@ -15,7 +15,7 @@ export default function TermsPage() {
                         <section>
                             <h2 className="text-2xl font-bold mb-4">一、服务概述</h2>
                             <p className="text-muted-foreground">
-                                SceneReady 是一个连接剧组与演员的数字化选角平台。我们为剧组提供组讯发布、演员筛选、订单管理等功能，为演员提供通告浏览、在线投递、模卡管理等服务。通过注册和使用本平台，即表示您同意本协议的全部条款。
+                                SceneReady 是一个连接剧组与演员的数字化选角平台。我们为剧组提供组讯发布、演员筛选、信息管理等功能，为演员提供通告浏览、在线投递、模卡管理等服务。通过注册和使用本平台，即表示您同意本协议的全部条款。
                             </p>
                         </section>
 
@@ -39,12 +39,12 @@ export default function TermsPage() {
                         </section>
 
                         <section>
-                            <h2 className="text-2xl font-bold mb-4">四、订单规则</h2>
+                            <h2 className="text-2xl font-bold mb-4">四、信息规则</h2>
                             <p className="text-muted-foreground mb-3">
-                                演员接单后应按照约定时间和地点准时到达。如需取消订单，请提前通知剧组。频繁无故取消订单将影响信用分。
+                                演员接单后应按照约定时间和地点准时到达。如需取消信息，请提前通知剧组。频繁无故取消信息将影响信用分。
                             </p>
                             <p className="text-muted-foreground">
-                                剧组发布通告后，应确保信息真实准确。订单完成后，双方均需在48小时内完成互评。
+                                剧组发布通告后，应确保信息真实准确。信息完成后，双方均需在48小时内完成互评。
                             </p>
                         </section>
 

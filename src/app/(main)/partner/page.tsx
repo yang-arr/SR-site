@@ -29,7 +29,7 @@ export default function PartnerPage() {
         { num: "1", title: "提交申请", desc: "填写公司信息\n上传资质文件" },
         { num: "2", title: "资质审核", desc: "1-3个工作日\n审核公司资质" },
         { num: "3", title: "签约入驻", desc: "签订合作协议\n开通企业账户" },
-        { num: "4", title: "开始使用", desc: "发布订单\n高效匹配人才" },
+        { num: "4", title: "开始使用", desc: "发布信息\n高效匹配人才" },
     ]
 
     return (

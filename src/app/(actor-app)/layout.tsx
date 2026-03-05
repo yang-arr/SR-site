@@ -2,7 +2,7 @@ import { ActorTabbar } from "@/components/layout/actor-tabbar"
 
 export const metadata = {
   title: "SceneReady 演员端",
-  description: "演员工作台 - 浏览通告、管理订单、展示模卡",
+  description: "演员工作台 - 浏览通告、管理信息、展示模卡",
 }
 
 export default function ActorAppLayout({

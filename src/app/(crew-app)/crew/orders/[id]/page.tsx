@@ -37,7 +37,7 @@ const applicantStatusColors: Record<string, { bg: string; text: string }> = {
 }
 
 const timelineSteps = [
-  { label: "订单创建", icon: <AlertCircle className="w-4 h-4" /> },
+  { label: "信息创建", icon: <AlertCircle className="w-4 h-4" /> },
   { label: "演员报名", icon: <Users className="w-4 h-4" /> },
   { label: "审核通过", icon: <CheckCircle2 className="w-4 h-4" /> },
   { label: "进行中", icon: <Clock className="w-4 h-4" /> },
@@ -65,9 +65,9 @@ export default function OrderDetailPage() {
     return (
       <div className="py-6 px-8">
         <div className="text-center py-20">
-          <p className="text-gray-400 mb-4">订单不存在</p>
+          <p className="text-gray-400 mb-4">信息不存在</p>
           <Link href="/crew/orders">
-            <Button variant="outline">返回订单列表</Button>
+            <Button variant="outline">返回信息列表</Button>
           </Link>
         </div>
       </div>
@@ -118,7 +118,7 @@ export default function OrderDetailPage() {
       {/* Status Timeline */}
       {order.status !== "已取消" && (
         <div className="bg-white rounded-xl border p-5 shadow-sm mb-6">
-          <h2 className="text-lg font-semibold mb-4">订单进度</h2>
+          <h2 className="text-lg font-semibold mb-4">信息进度</h2>
           <div className="flex items-center justify-between">
             {timelineSteps.map((step, i) => (
               <div key={step.label} className="flex items-center flex-1">
@@ -145,7 +145,7 @@ export default function OrderDetailPage() {
 
       {/* Order Info */}
       <div className="bg-white rounded-xl border p-5 shadow-sm mb-6">
-        <h2 className="text-lg font-semibold mb-4">订单详情</h2>
+        <h2 className="text-lg font-semibold mb-4">信息详情</h2>
         <div className="grid grid-cols-2 gap-4 text-sm">
           <div className="flex items-center gap-2 text-gray-600">
             <Users className="w-4 h-4 text-gray-400" />
@@ -270,11 +270,11 @@ export default function OrderDetailPage() {
       <div className="flex gap-4">
         <Button variant="outline" className="gap-2">
           <Edit className="w-4 h-4" />
-          编辑订单
+          编辑信息
         </Button>
         <Button variant="outline" className="gap-2 text-red-600 border-red-200 hover:bg-red-50">
           <Ban className="w-4 h-4" />
-          取消订单
+          取消信息
         </Button>
       </div>
 

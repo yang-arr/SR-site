@@ -8,7 +8,7 @@ import { Briefcase, Users, ClipboardList, UserCircle, ArrowLeft, Bell } from "lu
 const tabItems = [
   { name: "任务", href: "/actor", icon: Briefcase },
   { name: "社区", href: "/actor/community", icon: Users },
-  { name: "订单", href: "/actor/orders", icon: ClipboardList },
+  { name: "信息", href: "/actor/orders", icon: ClipboardList },
   { name: "我的", href: "/actor/profile", icon: UserCircle },
 ]
 

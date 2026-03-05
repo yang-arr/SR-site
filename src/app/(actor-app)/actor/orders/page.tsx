@@ -47,7 +47,7 @@ export default function OrdersPage() {
 
   return (
     <div className="pb-4">
-      <ActorHeader title="我的订单" />
+      <ActorHeader title="我的信息" />
 
       {/* Tabs */}
       <div className="sticky top-14 z-20 bg-white border-b border-gray-100">
@@ -72,7 +72,7 @@ export default function OrdersPage() {
       {/* Order cards */}
       <div className="max-w-3xl mx-auto px-4 md:px-6 mt-3 flex flex-col gap-3">
         {orders.length === 0 && (
-          <div className="py-20 text-center text-sm text-gray-400">暂无订单</div>
+          <div className="py-20 text-center text-sm text-gray-400">暂无信息</div>
         )}
         {orders.map((order, i) => {
           const isCancelled = cancelledIds.includes(order.id)

@@ -64,8 +64,8 @@ export default function PostOrderPage() {
   return (
     <div className="py-6 px-8 max-w-4xl">
       <div className="mb-8">
-        <h1 className="text-2xl font-bold text-gray-900">发布订单</h1>
-        <p className="text-gray-500 mt-1">填写订单信息，发布后演员即可接单</p>
+        <h1 className="text-2xl font-bold text-gray-900">发布信息</h1>
+        <p className="text-gray-500 mt-1">填写信息内容，发布后演员即可接单</p>
       </div>
 
       <div className="space-y-6">
@@ -370,7 +370,7 @@ export default function PostOrderPage() {
             onClick={handleSubmit}
             className="bg-purple-600 hover:bg-purple-700 text-white px-8"
           >
-            发布订单
+            发布信息
           </Button>
           <Button variant="outline">保存草稿</Button>
         </div>
@@ -397,7 +397,7 @@ export default function PostOrderPage() {
                 <CheckCircle2 className="w-8 h-8 text-green-600" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">发布成功！</h3>
-              <p className="text-sm text-gray-500 mb-6">你的订单已成功发布，等待演员接单中</p>
+              <p className="text-sm text-gray-500 mb-6">你的信息已成功发布，等待演员接单中</p>
               <Button
                 onClick={() => setShowSuccess(false)}
                 className="bg-purple-600 hover:bg-purple-700 text-white w-full"

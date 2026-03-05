@@ -47,6 +47,9 @@ export function Header() {
                 </nav>
 
                 <div className="hidden lg:flex items-center gap-4">
+                    <Button variant="outline" className="font-semibold px-6 rounded-lg text-sm border-primary text-primary hover:bg-primary/10" asChild>
+                        <Link href="/crew/post">发布信息</Link>
+                    </Button>
                     <Button className="bg-primary hover:bg-primary/90 text-white font-semibold px-6 rounded-lg text-sm" asChild>
                         <Link href="/miniapp">立即试戏</Link>
                     </Button>

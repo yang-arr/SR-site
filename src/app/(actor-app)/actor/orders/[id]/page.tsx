@@ -31,8 +31,8 @@ export default function OrderDetailPage() {
   if (!order) {
     return (
       <div>
-        <ActorHeader title="订单详情" />
-        <div className="max-w-3xl mx-auto px-4 py-20 text-center text-sm text-gray-400">订单不存在</div>
+        <ActorHeader title="信息详情" />
+        <div className="max-w-3xl mx-auto px-4 py-20 text-center text-sm text-gray-400">信息不存在</div>
       </div>
     )
   }
@@ -57,7 +57,7 @@ export default function OrderDetailPage() {
 
   return (
     <div className="pb-24">
-      <ActorHeader title="订单详情" />
+      <ActorHeader title="信息详情" />
 
       <div className="max-w-3xl mx-auto">
         {/* Order info */}
@@ -83,7 +83,7 @@ export default function OrderDetailPage() {
 
         {/* Status tracking timeline */}
         <div className="px-4 md:px-6 py-5">
-          <h3 className="text-sm font-semibold text-gray-700 mb-5">订单进度</h3>
+          <h3 className="text-sm font-semibold text-gray-700 mb-5">信息进度</h3>
           <div className="relative pl-8">
             {steps.map((step, i) => {
               const isCompleted = i < currentStep

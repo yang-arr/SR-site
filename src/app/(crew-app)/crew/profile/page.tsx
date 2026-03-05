@@ -21,11 +21,11 @@ import { Button } from "@/components/ui/button"
 import { mockCrew } from "@/lib/mock-data"
 
 const creditHistory = [
-  { id: 1, event: "完成订单《综艺节目群演》", change: +3, date: "2026-03-01", balance: 135 },
+  { id: 1, event: "完成信息《综艺节目群演》", change: +3, date: "2026-03-01", balance: 135 },
   { id: 2, event: "获得好评 - 管理有序", change: +2, date: "2026-02-28", balance: 132 },
   { id: 3, event: "准时开拍", change: +1, date: "2026-02-25", balance: 130 },
   { id: 4, event: "演员投诉 - 超时未结算", change: -3, date: "2026-02-20", balance: 129 },
-  { id: 5, event: "完成订单《品牌广告拍摄》", change: +3, date: "2026-02-15", balance: 132 },
+  { id: 5, event: "完成信息《品牌广告拍摄》", change: +3, date: "2026-02-15", balance: 132 },
   { id: 6, event: "注册奖励", change: +100, date: "2026-01-01", balance: 129 },
 ]
 
@@ -132,7 +132,7 @@ export default function ProfilePage() {
         className="grid grid-cols-5 gap-4 mb-6"
       >
         {[
-          { icon: <ClipboardList className="w-5 h-5 text-purple-500" />, label: "总订单", value: mockCrew.totalOrders },
+          { icon: <ClipboardList className="w-5 h-5 text-purple-500" />, label: "总信息", value: mockCrew.totalOrders },
           { icon: <CheckCircle2 className="w-5 h-5 text-green-500" />, label: "已完成", value: mockCrew.completedOrders },
           { icon: <ThumbsUp className="w-5 h-5 text-blue-500" />, label: "好评率", value: `${mockCrew.goodRate}%` },
           { icon: <Users className="w-5 h-5 text-orange-500" />, label: "粉丝", value: mockCrew.fans },
@@ -199,7 +199,7 @@ export default function ProfilePage() {
               </div>
               <div>
                 <p className="text-sm font-medium text-gray-900">消息通知</p>
-                <p className="text-xs text-gray-400">接收新订单推送和系统通知</p>
+                <p className="text-xs text-gray-400">接收新信息推送和系统通知</p>
               </div>
             </div>
             <button

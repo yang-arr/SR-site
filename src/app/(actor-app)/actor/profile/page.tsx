@@ -14,7 +14,7 @@ import { mockActors, mockReviews } from "@/lib/mock-data"
 const actor = mockActors[0]
 
 const stats = [
-  { label: "完成订单", value: actor.completedOrders },
+  { label: "完成信息", value: actor.completedOrders },
   { label: "总收入", value: `¥${actor.income.toLocaleString()}` },
   { label: "好评率", value: `${actor.goodRate}%` },
   { label: "粉丝", value: actor.fans.toLocaleString() },

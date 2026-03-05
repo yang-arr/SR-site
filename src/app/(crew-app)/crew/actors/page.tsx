@@ -281,7 +281,7 @@ export default function ActorSearchPage() {
                 <div className="grid grid-cols-4 gap-3">
                   {[
                     { label: "信用分", value: selectedActor.creditScore },
-                    { label: "完成订单", value: selectedActor.completedOrders },
+                    { label: "完成信息", value: selectedActor.completedOrders },
                     { label: "好评率", value: `${selectedActor.goodRate}%` },
                     { label: "粉丝", value: selectedActor.fans },
                   ].map((item) => (
