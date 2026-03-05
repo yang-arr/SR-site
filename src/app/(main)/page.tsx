@@ -10,12 +10,14 @@ import { Button } from "@/components/ui/button"
 import { Container } from "@/components/ui/container"
 import { ArrowRight, Clapperboard, User, Video, Shield, Clock, Search, X } from "lucide-react"
 import { FadeIn } from "@/components/ui/fade-in"
+import { RegisterModal } from "@/components/register-modal"
 
 export default function Home() {
   const [showRoleModal, setShowRoleModal] = React.useState(false)
 
   return (
     <div className="flex flex-col min-h-screen">
+      <RegisterModal open={showRoleModal} onClose={() => setShowRoleModal(false)} />
       <section className="relative pt-20 pb-32 lg:pt-32 lg:pb-44 overflow-hidden">
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/10 via-background to-background"></div>
         <Container className="flex flex-col items-center text-center">

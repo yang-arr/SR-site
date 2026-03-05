@@ -5,7 +5,6 @@ import { Container } from "@/components/ui/container"
 const productLinks = [
     { name: "剧组端", href: "/crew" },
     { name: "演员端", href: "/actor" },
-    { name: "小程序", href: "/miniapp" },
 ]
 
 const companyLinks = [
