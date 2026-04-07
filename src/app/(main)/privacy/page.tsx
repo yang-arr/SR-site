@@ -63,7 +63,7 @@ export default function PrivacyPage() {
                         <section>
                             <h2 className="text-2xl font-bold mb-4">五、用户权利</h2>
                             <p className="text-muted-foreground">
-                                您有权随时查看、修改或删除您的个人信息。您可以在小程序个人中心管理您的资料，也可以联系客服申请数据导出或账号注销。我们将在15个工作日内处理您的请求。
+                                您有权随时查看、修改或删除您的个人信息。您可以在个人中心管理您的资料，也可以联系客服申请数据导出或账号注销。我们将在15个工作日内处理您的请求。
                             </p>
                         </section>
 

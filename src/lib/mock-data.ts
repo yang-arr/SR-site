@@ -253,7 +253,7 @@ export const mockNews: NewsItem[] = [
   {
     id: "news-1", date: "2026-02-15", title: "SceneReady 1.0 版本正式上线", category: "产品动态",
     image: "/images/mini_app_release.png",
-    summary: "全新 SceneReady 1.0 现已上线。核心功能全面开放，支持微信小程序快速扫码访问，让剧组与演员沟通更加高效。",
+    summary: "全新 SceneReady 1.0 现已上线。核心功能全面开放，让剧组与演员沟通更加高效。",
     content: `SceneReady 1.0 版本于今日正式上线！经过数月的打磨和测试，我们为剧组和演员带来了全新的选角体验。
 
 ## 核心功能
@@ -271,7 +271,7 @@ export const mockNews: NewsItem[] = [
 ### 平台特色
 - **信用体系**：双向评价机制，打造诚信生态
 - **安全保障**：实名认证、隐私保护、资金安全
-- **微信小程序**：无需下载，扫码即用
+- **多端支持**：随时随地，便捷使用
 
 ## 未来规划
 

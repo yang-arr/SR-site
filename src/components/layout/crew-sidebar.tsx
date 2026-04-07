@@ -11,7 +11,6 @@ import {
   Star,
   UserCircle,
   ArrowLeft,
-  Smartphone,
 } from "lucide-react"
 
 const sidebarItems = [
@@ -37,10 +36,6 @@ export function CrewSidebar() {
           <Link href="/" className="flex items-center gap-1 text-slate-400 hover:text-white transition-colors">
             <ArrowLeft className="h-3.5 w-3.5" />
             返回官网
-          </Link>
-          <Link href="/miniapp" className="flex items-center gap-1 text-slate-400 hover:text-white transition-colors">
-            <Smartphone className="h-3.5 w-3.5" />
-            小程序
           </Link>
         </div>
       </div>

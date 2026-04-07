@@ -2,7 +2,6 @@
 
 import * as React from "react"
 import { cn } from "@/lib/utils"
-import { PhoneFrame } from "@/components/ui/phone-frame"
 
 import Link from "next/link"
 import Image from "next/image"
@@ -153,8 +152,8 @@ function AppDemoSection() {
       <Container>
         <div className="text-center max-w-3xl mx-auto mb-16">
           <FadeIn>
-            <h2 className="text-3xl md:text-5xl font-bold mb-6">真实的小程序体验</h2>
-            <p className="text-xl text-muted-foreground">无需下载 App，微信扫码即用。流畅的原生体验，让选角随时随地。</p>
+            <h2 className="text-3xl md:text-5xl font-bold mb-6">真实的产品体验</h2>
+            <p className="text-xl text-muted-foreground">流畅的原生体验，让选角随时随地。</p>
           </FadeIn>
         </div>
 
@@ -247,35 +246,30 @@ function AppDemoSection() {
             </FadeIn>
           </div>
 
-          {/* Right: Phone Demo */}
+          {/* Right: Image Showcase */}
           <div className="flex-1 w-full flex justify-center lg:justify-end">
-            <FadeIn className="relative">
+            <FadeIn className="relative w-full max-w-lg">
               {/* Background Blob */}
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/20 blur-3xl rounded-full -z-10 animate-pulse"></div>
 
-              <PhoneFrame className="shadow-[0_20px_50px_-12px_rgba(0,0,0,0.3)] border-slate-950">
-                <div className="relative w-full h-full bg-black">
-                  {/* Toggle Images */}
-                  <div className={cn("absolute inset-0 transition-opacity duration-500", activeTab === "crew" ? "opacity-100 z-10" : "opacity-0 z-0")}>
-                    <Image
-                      src="/images/crew-demo.gif"
-                      alt="Crew Demo"
-                      fill
-                      className="object-cover"
-                      unoptimized
-                    />
-                  </div>
-                  <div className={cn("absolute inset-0 transition-opacity duration-500", activeTab === "actor" ? "opacity-100 z-10" : "opacity-0 z-0")}>
-                    <Image
-                      src="/images/actor-demo.gif"
-                      alt="Actor Demo"
-                      fill
-                      className="object-cover"
-                      unoptimized
-                    />
-                  </div>
+              <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-[0_20px_50px_-12px_rgba(0,0,0,0.3)]">
+                <div className={cn("absolute inset-0 transition-opacity duration-500", activeTab === "crew" ? "opacity-100 z-10" : "opacity-0 z-0")}>
+                  <Image
+                    src="/images/crew-showcase.jpg"
+                    alt="剧组选角场景"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
-              </PhoneFrame>
+                <div className={cn("absolute inset-0 transition-opacity duration-500", activeTab === "actor" ? "opacity-100 z-10" : "opacity-0 z-0")}>
+                  <Image
+                    src="/images/actor-showcase.jpg"
+                    alt="演员试戏场景"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
             </FadeIn>
           </div>
         </div>

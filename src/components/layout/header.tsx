@@ -51,7 +51,7 @@ export function Header() {
                         <Link href="/crew/post">发布信息</Link>
                     </Button>
                     <Button className="bg-primary hover:bg-primary/90 text-white font-semibold px-6 rounded-lg text-sm" asChild>
-                        <Link href="/miniapp">立即试戏</Link>
+                        <Link href="/actor">立即试戏</Link>
                     </Button>
                 </div>
 
@@ -78,7 +78,7 @@ export function Header() {
                         </Link>
                     ))}
                     <Button className="w-full mt-4 bg-primary text-white" asChild>
-                        <Link href="/miniapp">立即试戏</Link>
+                        <Link href="/actor">立即试戏</Link>
                     </Button>
                 </div>
             )}
